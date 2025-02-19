@@ -11,5 +11,5 @@ import (
 )
 
 func isLicensed(_ *model.License, api *pluginapi.Wrapper) bool {
-	return originalapi.IsE20LicensedOrDevelopment(api.Configuration.GetConfig(), api.System.GetLicense())
+	return true
 }
